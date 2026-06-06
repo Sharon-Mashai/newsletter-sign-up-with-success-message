@@ -1,0 +1,173 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('assets/fonts/Roboto-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('assets/fonts/Roboto-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: hsl(234, 29%, 20%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Main Card */
+.container{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 25px;
+    padding: 25px;
+    display: flex;
+    gap: 30px;
+    max-width: 900px;
+    width: 100%;
+}
+
+/* Content Section */
+.content{
+    width: 50%;
+    padding: 20px;
+}
+
+.content h1{
+    color: hsl(234, 29%, 20%);
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.content p{
+    color: hsl(235, 18%, 26%);
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+/* List */
+ul{
+    list-style: none;
+    margin-bottom: 25px;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 12px;
+    color: hsl(235, 18%, 26%);
+}
+
+li img{
+    width: 18px;
+    height: 18px;
+}
+
+/* Form */
+label{
+    display: block;
+    font-weight: 700;
+    color: hsl(234, 29%, 20%);
+    margin-bottom: 8px;
+}
+
+input{
+    width: 100%;
+    padding: 15px;
+    border: 1px solid hsl(0, 0%, 58%);
+    border-radius: 8px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+/* Error Message */
+#errorMessage{
+    color: hsl(4, 100%, 67%);
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+/* Button */
+button{
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: hsl(234, 29%, 20%);
+    color: hsl(0, 0%, 100%);
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: hsl(4, 100%, 67%);
+}
+
+/* Image */
+.image-section img{
+    width: 100%;
+    display: block;
+}
+
+/* Success Card */
+.success-card{
+    display: none;
+    background-color: hsl(0, 0%, 100%);
+    width: 450px;
+    padding: 40px;
+    border-radius: 25px;
+}
+
+.success-card img{
+    margin-bottom: 25px;
+}
+
+.success-card h1{
+    color: hsl(234, 29%, 20%);
+    margin-bottom: 20px;
+}
+
+.success-card p{
+    color: hsl(235, 18%, 26%);
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+
+/* Mobile */
+@media(max-width: 768px){
+
+    .container{
+        flex-direction: column-reverse;
+        max-width: 400px;
+        padding: 15px;
+    }
+
+    .content{
+        width: 100%;
+        padding: 10px;
+    }
+
+    .content h1{
+        font-size: 2.3rem;
+    }
+
+    .success-card{
+        width: 100%;
+    }
+
+}
