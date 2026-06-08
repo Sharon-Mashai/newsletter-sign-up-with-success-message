@@ -21,11 +21,11 @@ Users should be able to:
 
 #### Sign Up Form
 
-![Sign Up Preview](images/signup-preview.png)
+![Sign Up Preview](assets/images/signup-preview.png)
 
 #### Success Message
 
-![Project Preview](images/project-preview.png)
+![Project Preview](assets/images/success-message.png)
 
 ### Links
 
