@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 * Solution URL: https://github.com/Sharon-Mashai/newsletter-sign-up-with-success-message.git
-* Live Site URL: https://newsletter-sign-up-with-success-mes-wheat.vercel.app/
+* Live Site URL: https://newsletter-sign-up-with-success-message-itt429o3r.vercel.app/
 
 ## My Process
 
