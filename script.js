@@ -42,7 +42,7 @@ subscribeBtn.addEventListener("click", function(){
     userEmail.textContent = email;
 
     signupCard.style.display = "none";
-    successCard.style.display = "block";
+   successCard.style.display = "block";
 
 });
 
